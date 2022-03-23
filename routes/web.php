@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::view("/list-cars", "list_cars");
+Route::view("/new-car", "new_car");
