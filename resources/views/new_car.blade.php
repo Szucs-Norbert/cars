@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col-lg-4 offset-lg-4">
-        <form class="form-control" action="/store-car" method="post">
+        <form class="form-control" action="/store-car " method="post">
         @csrf      
             <label for="plate">Rendszám</label>
             <input class="form-control" type="text" name="plate">
