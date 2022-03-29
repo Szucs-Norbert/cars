@@ -3,7 +3,7 @@
 @section("content")
 
 <div class="container">
-    <div class="row">
+    <div class="row my-3">
         <div class="col-6">
             <form action="">
                 <select name="color" id="">
@@ -12,17 +12,17 @@
                     <option>sárga</option>
                     <option>piros</option>
                 </select>
-                <button class="btn btn-outline-info" type="submit">Keresés</button>
+                <button class="btn btn-outline-info mt-2" type="submit">Keresés</button>
             </form>
         </div>
         <div class="col-6">
-            <a href="/register">Regisztráció</a>
-            <a href="/login">Bejelentkezés</a>
-            <a href="/logout">Kijelentkezés</a>
+            <a class="btn btn-outline-info mb-1" href="/register">Regisztráció</a>
+            <a class="btn btn-outline-info mb-1" href="/login">Bejelentkezés</a>
+            <a class="btn btn-outline-info mb-1" href="/logout">Kijelentkezés</a>
         </div>
     </div>
         <div class="row">
-            <div class="col-8">
+            <div class="col-lg-8 col-md-12">
                 <table class="table table-stripped">
                     <thead>
                         <th scope="col">Id</th>
@@ -48,7 +48,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-2">
+            <div class="col-lg-4 col-md-12 col-sm-8">
                 <a class="btn btn-outline-primary" href="/new-car">Új autó</a>
             </div>
         </div>

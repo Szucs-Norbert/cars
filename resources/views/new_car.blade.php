@@ -3,8 +3,8 @@
 @section("content")
 
 <div class="row">
-    <div class="col-lg-4 offset-lg-4">
-        <form class="form-control" action="/store-car " method="post">
+    <div class=" col-xl-4 col-lg-4 col-sm-4 col-sm-4 offset-lg-4 offset-md-4 ">
+        <form class="form-control mt-5 p-5" action="/store-car " method="post">
         @csrf      
             <label for="plate">Rendszám</label>
             <input class="form-control" type="text" name="plate">
@@ -18,7 +18,7 @@
             <label for="price">Ár</label>
             <input class="form-control" type="text" name="price">
 
-            <button class="btn btn-outline-primary" type="submit">Küldés</button>
+            <button class="btn btn-outline-primary mt-3" type="submit">Küldés</button>
         </form>
     </div>
 </div>
